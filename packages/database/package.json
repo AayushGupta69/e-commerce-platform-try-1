@@ -1,0 +1,11 @@
+{
+  "name": "@e-commerce-platform/database",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "prisma": "^5.20.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.20.0"
+  }
+}

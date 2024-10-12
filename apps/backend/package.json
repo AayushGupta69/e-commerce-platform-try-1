@@ -12,6 +12,7 @@
     "express": "^4.21.0"
   },
   "devDependencies": {
+    "@e-commerce-platform/typescript-config": "workspace:*",
     "@types/express": "^5.0.0",
     "esbuild": "^0.24.0",
     "nodemon": "^3.1.7"

@@ -11,10 +11,10 @@
     "prefix": "ui-"
   },
   "aliases": {
-    "components": "src/components",
-    "utils": "src/lib/utils",
-    "ui": "src/components/ui",
-    "lib": "src/lib",
-    "hooks": "src/hooks"
+    "components": "@e-commerce-platform/ui/components",
+    "utils": "@e-commerce-platform/ui/lib/utils",
+    "ui": "@e-commerce-platform/ui/components/ui",
+    "lib": "@e-commerce-platform/ui/lib",
+    "hooks": "@e-commerce-platform/ui/hooks"
   }
 }

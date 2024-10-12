@@ -4,7 +4,7 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "@e-commerce-platform/ui/*": ["./src/*"]
+      "@e-commerce-platform/ui/src/*": ["./src/*"]
     }
   },
   "include": ["src"],

@@ -9,9 +9,6 @@
     "dist"
   ],
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx",
     "./styles.css": "./dist/index.css"
   },
   "scripts": {

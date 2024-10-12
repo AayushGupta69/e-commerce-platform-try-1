@@ -143,6 +143,9 @@ importers:
       '@e-commerce-platform/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
+      '@e-commerce-platform/tailwind-config':
+        specifier: workspace:*
+        version: link:../tailwind-config
       '@e-commerce-platform/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -161,9 +164,18 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.19
         version: 18.3.0
+      autoprefixer:
+        specifier: ^10.4.20
+        version: 10.4.20(postcss@8.4.47)
       eslint:
         specifier: ^8.57.0
         version: 8.57.1
+      postcss:
+        specifier: ^8.4.47
+        version: 8.4.47
+      tailwindcss:
+        specifier: ^3.4.13
+        version: 3.4.13
       typescript:
         specifier: ^5.3.3
         version: 5.6.2

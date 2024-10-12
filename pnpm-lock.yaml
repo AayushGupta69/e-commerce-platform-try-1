@@ -122,6 +122,9 @@ importers:
 
   packages/tailwind-config:
     devDependencies:
+      '@e-commerce-platform/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
       tailwindcss:
         specifier: ^3.4.13
         version: 3.4.13

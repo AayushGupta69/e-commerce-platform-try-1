@@ -52,6 +52,9 @@ importers:
       '@e-commerce-platform/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
+      '@e-commerce-platform/tailwind-config':
+        specifier: workspace:*
+        version: link:../../packages/tailwind-config
       '@e-commerce-platform/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config

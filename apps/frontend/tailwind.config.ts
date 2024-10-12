@@ -1,9 +1,9 @@
 import type { Config } from "tailwindcss";
+import sharedConfig from "@e-commerce-platform/tailwind-config";
 
-export default {
+const config: Pick<Config, "content" | "presets"> = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-} satisfies Config;
+  presets: [sharedConfig],
+};
+
+export default config;
